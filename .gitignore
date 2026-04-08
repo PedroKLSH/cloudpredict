@@ -1,0 +1,33 @@
+# .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+# Virtual environment
+venv/
+env/
+.env
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS
+.DS_Store
+Thumbs.db
+# ML Models (optionnel - on peut vouloir les versionner ou non)
+# ml/models/*.joblib
+# Docker
+docker-compose.override.yml
+# Logs
+*.log
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
